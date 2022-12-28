@@ -1,0 +1,111 @@
+.catalog
+    padding-top: 78px
+    padding-bottom: 130px
+    &_titles
+        display: flex
+        align-items: center
+        justify-content: space-between
+        margin-bottom: 49px
+    &_title
+        font-weight: 700
+        font-size: 38px
+        color: $black
+        margin-bottom: 15px
+    &_link
+        color: #5E5873
+        font-weight: 500
+        font-size: 13px
+        text-decoration: none
+        position: relative
+        &::after
+            content: ''
+            background: url('../img/ArrowRight.svg') no-repeat center
+            position: absolute
+            width: 28px
+            height: 28px
+            top: -5px
+            right: -30px
+    &_content
+        display: flex
+        justify-content: space-between
+    &_card
+        padding: 16px 0px 0px 19px
+        border: 1px solid #DFDFDF
+        border-radius: 5px
+        &_title
+            display: flex
+            max-width: 205px
+            width: 100%
+            justify-content: space-between
+            margin-top: 12px
+            margin-bottom: 5px
+        &_text
+            color: $black
+            font-size: 13px
+            font-weight: 500
+        &_span
+            margin-right: 20px
+            position: relative
+            &::after
+                content: ''
+                position: absolute
+                background: url('../img/Stars.svg') no-repeat center
+                top: 2px
+                right: -20px
+                width: 15px
+                height: 15px
+        &_price
+            display: flex
+            max-width: 205px
+            width: 100%
+            justify-content: space-between
+            margin-bottom: 5px
+    &_price
+        font-weight: 700
+        font-size: 15px
+        color: $black
+    &_days
+        margin-left: 22px
+        position: relative
+        margin-bottom: 5px
+        &::before
+            content: ''
+            position: absolute
+            background: url('../img/Clock.svg') no-repeat center
+            top: 2px
+            left: -22px
+            width: 15px
+            height: 15px
+    &_geo
+        margin-left: 22px
+        position: relative
+        margin-bottom: 10px
+        &::before
+            content: ''
+            position: absolute
+            background: url('../img/Home.svg') no-repeat center
+            top: 2px
+            left: -22px
+            width: 15px
+            height: 15px
+    &_btns
+        display: flex
+        align-items: center
+    &_btn1
+        margin-right: 17px
+    &_btn2
+        padding: 11px 74px
+        color: $white
+        background: #388186
+        font-weight: 600
+        font-size: 11px              
+        text-decoration: none
+
+
+
+
+
+.green_block
+    width: 94px
+    height: 6px 
+    background: #388186
